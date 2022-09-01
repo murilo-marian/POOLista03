@@ -11,5 +11,6 @@ public class Exercicio13 {
             fatorial *= i;
         }
         System.out.println(fatorial);
+        entrada.close();
     }
 }

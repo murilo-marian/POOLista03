@@ -15,5 +15,6 @@ public class Exercicio12 {
             System.out.println(fibo);
             fibo += anterior;
         }
+        entrada.close();
     }
 }

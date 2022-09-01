@@ -13,5 +13,7 @@ public class Exercicio20 {
             nota += entrada.nextInt();
         }
         System.out.println("A média das " + total + " notas é: " + (nota/total));
+
+        entrada.close();
     }
 }

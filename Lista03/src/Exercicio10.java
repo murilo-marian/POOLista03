@@ -12,5 +12,6 @@ public class Exercicio10 {
             resultado = resultado*base;
         }
         System.out.println(base + "^" + expoente + " = " + resultado);
+    entrada.close();
     }
 }

@@ -10,5 +10,7 @@ public class Exercicio01 {
             nota = entrada.nextInt();
         }
         System.out.println("Valor válido");
+
+        entrada.close();
     }
 }

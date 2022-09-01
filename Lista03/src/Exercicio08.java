@@ -20,5 +20,6 @@ public class Exercicio08 {
             soma += i;
         }
         System.out.println(soma);
+        entrada.close();
     }
 }

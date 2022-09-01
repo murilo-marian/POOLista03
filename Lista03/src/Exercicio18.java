@@ -22,5 +22,7 @@ public class Exercicio18 {
             System.out.println("Não é primo");
             System.out.println("Porém ele é divisível por: " + divisores);
         }
+
+        entrada.close();
     }
 }

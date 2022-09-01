@@ -11,5 +11,6 @@ public class Exercicio14 {
             resultado = resultado + (i/(i+1f));
         }
         System.out.println(resultado);
+        entrada.close();
     }
 }

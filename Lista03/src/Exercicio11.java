@@ -19,5 +19,6 @@ public class Exercicio11 {
         }
         System.out.print("Pares: " + pares);
         System.out.println("Impares " + impares);
+        entrada.close();
     }
 }

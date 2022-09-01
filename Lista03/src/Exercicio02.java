@@ -13,5 +13,6 @@ public class Exercicio02 {
             senha = entrada.nextLine();
         }
 
+        entrada.close();
     }
 }

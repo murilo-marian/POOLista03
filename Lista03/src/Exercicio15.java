@@ -10,6 +10,5 @@ public class Exercicio15 {
             base = 38 - i;
         }
         System.out.println(resultado);
-
     }
 }

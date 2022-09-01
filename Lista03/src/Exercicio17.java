@@ -18,5 +18,7 @@ public class Exercicio17 {
         } else {
             System.out.println("Não é primo");
         }
+
+        entrada.close();
     }
 }

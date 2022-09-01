@@ -18,5 +18,6 @@ public class Exercicio16 {
         } else {
             System.out.println("Não é primo");
         }
+        entrada.close();
     }
 }

@@ -1,3 +1,4 @@
+import java.time.Instant;
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -9,6 +10,8 @@ public class Exercicio19 {
         int intervalo = entrada.nextInt();
         int contador = 0;
         ArrayList primos = new ArrayList();
+
+        long msInicial = Instant.now().toEpochMilli();
         for (int j = 1; j < intervalo; j++) {
             for (int i = j; i >= 1; i--) {
                 if (j % i == 0) {
@@ -20,6 +23,10 @@ public class Exercicio19 {
             }
             contador = 0;
         }
+        long msFinal = Instant.now().toEpochMilli();
+        System.out.println(msFinal - msInicial);
         System.out.println(primos);
+
+        entrada.close();
     }
 }
